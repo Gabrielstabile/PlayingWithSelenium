@@ -19,7 +19,7 @@ public class informacoesUsuarioTest {
     public void SetUp(){
         System.setProperty("webdriver.chrome.driver","C:\\Users\\707923\\Driver\\chromedriver.EXE");
         navegador = new ChromeDriver();
-        navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        navegador.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         navegador.get("http://www.juliodelima.com.br/taskit/");
     }
 
