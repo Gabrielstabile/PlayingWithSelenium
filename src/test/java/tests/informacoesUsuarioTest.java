@@ -1,6 +1,8 @@
 package tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
+import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
 import org.junit.Before;
@@ -9,8 +11,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.concurrent.TimeUnit;
 
 public class informacoesUsuarioTest {
     private WebDriver navegador;
@@ -22,6 +22,7 @@ public class informacoesUsuarioTest {
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         navegador.get("http://www.juliodelima.com.br/taskit/");
     }
+
 
     @Test
     public void testAdicionarUmaInformacaoAdicionalDoUsuario(){
