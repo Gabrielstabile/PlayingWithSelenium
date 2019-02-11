@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class informacoesUsuarioTest {
     private WebDriver navegador;
@@ -32,9 +33,21 @@ public class informacoesUsuarioTest {
         caixaSignIn.findElement(By.name("password")).sendKeys("123456");
         navegador.findElement(By.linkText("SIGN IN")).click();
 
-        WebElement me = navegador.findElement(By.className("me"));
-        String HiJulioText = me.getText();
-        assertEquals("Hi, Julio", HiJulioText);
+        navegador.findElement(By.className("me")).click();
+        navegador.findElement(By.linkText("MORE DATA ABOUT YOU")).click();
+        navegador.findElement(By.xpath("//div[@id=\"moredata\"]//button[@data-target=\"addmoredata\"]")).click();
+
+        WebElement popUpMoreData = navegador.findElement(By.id("addmoredata"));
+        WebElement campoType = popUpMoreData.findElement(By.name("type"));
+        new Select(campoType).selectByVisibleText("Phone");
+        popUpMoreData.findElement(By.name("contact")).sendKeys("+55119999911111");
+
+        popUpMoreData.findElement(By.linkText("SAVE")).click();
+
+        WebElement mensagemPop = navegador.findElement(By.id("toast-container"));
+        String mensagem = mensagemPop.getText();
+        assertEquals("Your contact has been added!", mensagem);
+
     }
 
     @After
