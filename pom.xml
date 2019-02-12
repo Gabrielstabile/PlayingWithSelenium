@@ -31,6 +31,20 @@
             <version>2.5</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.easetech/easytest-core -->
+        <dependency>
+            <groupId>org.easetech</groupId>
+            <artifactId>easytest-core</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
 
     </dependencies>
 </project>

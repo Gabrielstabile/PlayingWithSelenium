@@ -4,11 +4,15 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
 
+import org.easetech.easytest.annotation.DataLoader;
+import org.easetech.easytest.annotation.Param;
+import org.easetech.easytest.runner.DataDrivenTestRunner;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestName;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +23,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import suporte.Generator;
 import suporte.Screenshot;
 
+@RunWith(DataDrivenTestRunner.class)
+@DataLoader(filePaths = "informacoesUsuarioTest.csv")
 public class informacoesUsuarioTest {
     private WebDriver navegador;
 
@@ -42,24 +48,24 @@ public class informacoesUsuarioTest {
     }
 
 
-   // @Test
-    public void testAdicionarUmaInformacaoAdicionalDoUsuario(){
+    @Test
+    public void testAdicionarUmaInformacaoAdicionalDoUsuario(@Param(name="tipo")String tipo, @Param(name="contato")String contato, @Param(name="mensagem")String mensagemEsperada){
         navegador.findElement(By.xpath("//div[@id=\"moredata\"]//button[@data-target=\"addmoredata\"]")).click();
 
         WebElement popUpMoreData = navegador.findElement(By.id("addmoredata"));
         WebElement campoType = popUpMoreData.findElement(By.name("type"));
-        new Select(campoType).selectByVisibleText("Phone");
-        popUpMoreData.findElement(By.name("contact")).sendKeys("+55119999911111");
+        new Select(campoType).selectByVisibleText(tipo);
+        popUpMoreData.findElement(By.name("contact")).sendKeys(contato);
 
         popUpMoreData.findElement(By.linkText("SAVE")).click();
 
         WebElement mensagemAdicao = navegador.findElement(By.id("toast-container"));
         String mensagemAdicaoTexto = mensagemAdicao.getText();
-        assertEquals("Your contact has been added!", mensagemAdicaoTexto);
+        assertEquals(mensagemEsperada, mensagemAdicaoTexto);
 
     }
 
-    @Test
+    //@Test
     public void testRemoverUmTelefoneDeUmUsuario(){
         navegador.findElement(By.xpath("//div[@id=\"moredata\"]//button[@data-target=\"addmoredata\"]")).click();
 
