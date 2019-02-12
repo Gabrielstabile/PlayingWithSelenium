@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffd9bbe2-e508-49bc-8efc-fe32570adbf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/informacoesUsuarioTest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/informacoesUsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/informacoesUsuarioTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="ffd9bbe2-e508-49bc-8efc-fe32570adbf3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
                 <element signature="method#SetUp#0;class#informacoesUsuarioTest#0" />
               </folding>
@@ -150,7 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549990265801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549992496541" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -373,7 +366,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding>
             <element signature="method#SetUp#0;class#informacoesUsuarioTest#0" />
           </folding>
