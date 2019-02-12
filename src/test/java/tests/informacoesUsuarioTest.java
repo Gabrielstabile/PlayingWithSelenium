@@ -56,7 +56,7 @@ public class informacoesUsuarioTest {
     public void testRemoverUmTelefoneDeUmUsuario(){
         navegador.findElement(By.xpath("//div[@id=\"moredata\"]//button[@data-target=\"addmoredata\"]")).click();
 
-        WebElem ent popUpMoreData = navegador.findElement(By.id("addmoredata"));
+        WebElement popUpMoreData = navegador.findElement(By.id("addmoredata"));
         WebElement campoType = popUpMoreData.findElement(By.name("type"));
         new Select(campoType).selectByVisibleText("Phone");
         popUpMoreData.findElement(By.name("contact")).sendKeys("55998985673");
@@ -86,6 +86,6 @@ public class informacoesUsuarioTest {
 
     @After
     public void tearDown(){
-    navegador.close();
+    navegador.quit();
     }
 }
