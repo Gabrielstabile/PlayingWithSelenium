@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffd9bbe2-e508-49bc-8efc-fe32570adbf3" name="Default Changelist" comment="" />
+    <list default="true" id="ffd9bbe2-e508-49bc-8efc-fe32570adbf3" name="Default Changelist" comment="push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/InicialPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Web.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/InformacoesUsuariosPageObjectsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/informacoesUsuarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/informacoesUsuarioTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,31 +26,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="327">
+              <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/InformacoesUsuariosPageObjectsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
-                <element signature="method#SetUp#0;class#informacoesUsuarioTest#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/informacoesUsuarioTest.csv">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginFormPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="48" lean-forward="true" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+            <state relative-caret-position="307">
+              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/InicialPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,9 +95,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/suporte/Generator.java" />
         <option value="$PROJECT_DIR$/src/test/java/suporte/Screenshot.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/informacoesUsuarioTest.csv" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/suporte/Web.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/LoginFormPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/InicialPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/InformacoesUsuariosPageObjectsTest.java" />
       </list>
     </option>
   </component>
@@ -94,8 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -127,6 +160,22 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PlayingWithSelenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="seleniumTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="suporte" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PlayingWithSelenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="seleniumTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -143,9 +192,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549992496541" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550077581456" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,7 +213,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.informacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario">
+  <component name="RunManager" selected="JUnit.InformacoesUsuariosPageObjectsTest.testAdicionarUmaInformacaoAdicionalDoUsuario">
+    <configuration name="InformacoesUsuariosPageObjectsTest.testAdicionarUmaInformacaoAdicionalDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.InformacoesUsuariosPageObjectsTest" />
+      <option name="METHOD_NAME" value="testAdicionarUmaInformacaoAdicionalDoUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="informacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seleniumTest" />
       <extension name="coverage">
@@ -194,6 +264,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InformacoesUsuariosPageObjectsTest.testAdicionarUmaInformacaoAdicionalDoUsuario" />
         <item itemvalue="JUnit.informacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" />
         <item itemvalue="JUnit.informacoesUsuarioTest.testRemoverUmTelefoneDeUmUsuario" />
       </list>
@@ -235,15 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="informacoesUsuarioTest_testRemoverUmTelefoneDeUmUsuario - 2019.02.12 at 09h 30m 09s.xml">
-      <configuration name="informacoesUsuarioTest.testRemoverUmTelefoneDeUmUsuario" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="informacoesUsuarioTest_testRemoverUmTelefoneDeUmUsuario - 2019.02.12 at 10h 29m 46s.xml">
-      <configuration name="informacoesUsuarioTest.testRemoverUmTelefoneDeUmUsuario" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="informacoesUsuarioTest_testRemoverUmTelefoneDeUmUsuario - 2019.02.12 at 10h 51m 05s.xml">
-      <configuration name="informacoesUsuarioTest.testRemoverUmTelefoneDeUmUsuario" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="informacoesUsuarioTest_testRemoverUmTelefoneDeUmUsuario - 2019.02.12 at 11h 58m 48s.xml">
       <configuration name="informacoesUsuarioTest.testRemoverUmTelefoneDeUmUsuario" configurationId="JUnit" />
     </history-entry>
@@ -265,6 +327,15 @@
     <history-entry file="informacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2019.02.12 at 14h 39m 43s.xml">
       <configuration name="informacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="informacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2019.02.13 at 12h 44m 00s.xml">
+      <configuration name="informacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuariosPageObjectsTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2019.02.13 at 14h 52m 52s.xml">
+      <configuration name="InformacoesUsuariosPageObjectsTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuariosPageObjectsTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2019.02.13 at 14h 53m 53s.xml">
+      <configuration name="InformacoesUsuariosPageObjectsTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +350,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,7 +359,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.2780338" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.24577573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,26 +420,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestReport/PlayingWithSelenium/testRemoverUmTelefoneDeUmUsuario.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="218">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suporte/Web.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/informacoesUsuarioTest.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="48" lean-forward="true" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/InicialPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginFormPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/informacoesUsuarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="327">
+          <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/InformacoesUsuariosPageObjectsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="method#SetUp#0;class#informacoesUsuarioTest#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
