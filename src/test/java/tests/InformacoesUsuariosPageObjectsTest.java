@@ -19,9 +19,11 @@ public class InformacoesUsuariosPageObjectsTest {
     public void testAdicionarUmaInformacaoAdicionalDoUsuario(){
         new LoginPage(navegador)
                 .clickSignIn()
-                .digitarLogin("julio0001")
-                .digitarSenha("123456")
-                .clicarBotaoSignIn();
+                .realizarLogin("julio0001", "123456")
+                .clicarEmMe()
+                .clicarMoreDataAboutYou()
+                .clicarBotaoAddMoreData()
+        ;
     }
 
     @After
