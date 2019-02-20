@@ -33,7 +33,7 @@ public class InformacoesUsuariosPageObjectsTest {
                 .clicarBotaoAddMoreData()
                 .adicionarContato(tipo, contato)
                 .capturarTextoToast();
-
+        
         assertEquals(mensagemEsperada, textoToast);
     }
 
